@@ -1,0 +1,774 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ui version="4.0">
+ <class>Dialog</class>
+ <widget class="QDialog" name="Dialog">
+  <property name="geometry">
+   <rect>
+    <x>0</x>
+    <y>0</y>
+    <width>903</width>
+    <height>595</height>
+   </rect>
+  </property>
+  <property name="windowTitle">
+   <string>Dialog</string>
+  </property>
+  <widget class="QWidget" name="layoutWidget">
+   <property name="geometry">
+    <rect>
+     <x>71</x>
+     <y>31</y>
+     <width>675</width>
+     <height>464</height>
+    </rect>
+   </property>
+   <layout class="QGridLayout" name="gridLayout_2">
+    <item row="0" column="0">
+     <layout class="QVBoxLayout" name="verticalLayout_37">
+      <item>
+       <layout class="QGridLayout" name="gridLayout">
+        <item row="0" column="0" colspan="3">
+         <layout class="QVBoxLayout" name="verticalLayout_10">
+          <item>
+           <layout class="QVBoxLayout" name="verticalLayout_9">
+            <item>
+             <widget class="QLabel" name="label_2">
+              <property name="text">
+               <string>表头内容：</string>
+              </property>
+             </widget>
+            </item>
+            <item>
+             <layout class="QHBoxLayout" name="horizontalLayout_4">
+              <item>
+               <layout class="QHBoxLayout" name="horizontalLayout">
+                <item>
+                 <layout class="QVBoxLayout" name="verticalLayout">
+                  <item>
+                   <widget class="QLabel" name="projectNameL">
+                    <property name="text">
+                     <string>工程名称：</string>
+                    </property>
+                    <property name="alignment">
+                     <set>Qt::AlignRight|Qt::AlignTrailing|Qt::AlignVCenter</set>
+                    </property>
+                   </widget>
+                  </item>
+                  <item>
+                   <widget class="QLabel" name="checkRecordNoL">
+                    <property name="text">
+                     <string>检验记录编号：</string>
+                    </property>
+                    <property name="alignment">
+                     <set>Qt::AlignRight|Qt::AlignTrailing|Qt::AlignVCenter</set>
+                    </property>
+                   </widget>
+                  </item>
+                  <item>
+                   <widget class="QLabel" name="checkNoL">
+                    <property name="text">
+                     <string>检验编号：</string>
+                    </property>
+                    <property name="alignment">
+                     <set>Qt::AlignRight|Qt::AlignTrailing|Qt::AlignVCenter</set>
+                    </property>
+                   </widget>
+                  </item>
+                 </layout>
+                </item>
+                <item>
+                 <layout class="QVBoxLayout" name="verticalLayout_2">
+                  <item>
+                   <widget class="QLineEdit" name="projectNameLE"/>
+                  </item>
+                  <item>
+                   <widget class="QLineEdit" name="checkRecordNoLE"/>
+                  </item>
+                  <item>
+                   <widget class="QLineEdit" name="checkNoLE"/>
+                  </item>
+                 </layout>
+                </item>
+               </layout>
+              </item>
+              <item>
+               <layout class="QHBoxLayout" name="horizontalLayout_2">
+                <item>
+                 <layout class="QVBoxLayout" name="verticalLayout_3">
+                  <item>
+                   <widget class="QLabel" name="checkprojectL">
+                    <property name="text">
+                     <string>检验项目：</string>
+                    </property>
+                    <property name="alignment">
+                     <set>Qt::AlignRight|Qt::AlignTrailing|Qt::AlignVCenter</set>
+                    </property>
+                   </widget>
+                  </item>
+                  <item>
+                   <widget class="QLabel" name="checkAccordL">
+                    <property name="text">
+                     <string>检验依据：</string>
+                    </property>
+                    <property name="alignment">
+                     <set>Qt::AlignRight|Qt::AlignTrailing|Qt::AlignVCenter</set>
+                    </property>
+                   </widget>
+                  </item>
+                  <item>
+                   <widget class="QLabel" name="checkCountL">
+                    <property name="text">
+                     <string>检验数量：</string>
+                    </property>
+                    <property name="alignment">
+                     <set>Qt::AlignRight|Qt::AlignTrailing|Qt::AlignVCenter</set>
+                    </property>
+                   </widget>
+                  </item>
+                 </layout>
+                </item>
+                <item>
+                 <layout class="QVBoxLayout" name="verticalLayout_6">
+                  <item>
+                   <widget class="QLineEdit" name="checkProjectLE"/>
+                  </item>
+                  <item>
+                   <widget class="QLineEdit" name="checkAccordLE"/>
+                  </item>
+                  <item>
+                   <widget class="QLineEdit" name="checkCountLE"/>
+                  </item>
+                 </layout>
+                </item>
+               </layout>
+              </item>
+              <item>
+               <layout class="QHBoxLayout" name="horizontalLayout_3">
+                <item>
+                 <layout class="QVBoxLayout" name="verticalLayout_7">
+                  <item>
+                   <widget class="QLabel" name="piezometerNoL">
+                    <property name="text">
+                     <string>压力表表号：</string>
+                    </property>
+                    <property name="alignment">
+                     <set>Qt::AlignRight|Qt::AlignTrailing|Qt::AlignVCenter</set>
+                    </property>
+                   </widget>
+                  </item>
+                  <item>
+                   <widget class="QLabel" name="dialgaugeNoL">
+                    <property name="text">
+                     <string>百分表表号：</string>
+                    </property>
+                    <property name="alignment">
+                     <set>Qt::AlignRight|Qt::AlignTrailing|Qt::AlignVCenter</set>
+                    </property>
+                   </widget>
+                  </item>
+                  <item>
+                   <widget class="QLabel" name="loadL">
+                    <property name="text">
+                     <string>初始载荷：</string>
+                    </property>
+                    <property name="alignment">
+                     <set>Qt::AlignRight|Qt::AlignTrailing|Qt::AlignVCenter</set>
+                    </property>
+                   </widget>
+                  </item>
+                 </layout>
+                </item>
+                <item>
+                 <layout class="QVBoxLayout" name="verticalLayout_8">
+                  <item>
+                   <widget class="QLineEdit" name="piezometerNoLE"/>
+                  </item>
+                  <item>
+                   <widget class="QLineEdit" name="dialgaugeNoLE"/>
+                  </item>
+                  <item>
+                   <widget class="QLineEdit" name="loadLE"/>
+                  </item>
+                 </layout>
+                </item>
+               </layout>
+              </item>
+             </layout>
+            </item>
+           </layout>
+          </item>
+          <item>
+           <widget class="Line" name="line">
+            <property name="orientation">
+             <enum>Qt::Horizontal</enum>
+            </property>
+           </widget>
+          </item>
+         </layout>
+        </item>
+        <item row="1" column="0">
+         <layout class="QVBoxLayout" name="verticalLayout_36">
+          <item>
+           <layout class="QVBoxLayout" name="verticalLayout_13">
+            <item>
+             <widget class="QLabel" name="label_3">
+              <property name="text">
+               <string>初始时间：</string>
+              </property>
+             </widget>
+            </item>
+            <item>
+             <layout class="QHBoxLayout" name="horizontalLayout_5">
+              <item>
+               <layout class="QVBoxLayout" name="verticalLayout_11">
+                <item>
+                 <widget class="QLabel" name="monthL">
+                  <property name="text">
+                   <string>月：</string>
+                  </property>
+                  <property name="alignment">
+                   <set>Qt::AlignRight|Qt::AlignTrailing|Qt::AlignVCenter</set>
+                  </property>
+                 </widget>
+                </item>
+                <item>
+                 <widget class="QLabel" name="dayL">
+                  <property name="text">
+                   <string>日：</string>
+                  </property>
+                  <property name="alignment">
+                   <set>Qt::AlignRight|Qt::AlignTrailing|Qt::AlignVCenter</set>
+                  </property>
+                 </widget>
+                </item>
+                <item>
+                 <widget class="QLabel" name="hourL">
+                  <property name="text">
+                   <string>时：</string>
+                  </property>
+                  <property name="alignment">
+                   <set>Qt::AlignRight|Qt::AlignTrailing|Qt::AlignVCenter</set>
+                  </property>
+                 </widget>
+                </item>
+                <item>
+                 <widget class="QLabel" name="minuteL">
+                  <property name="text">
+                   <string>分：</string>
+                  </property>
+                  <property name="alignment">
+                   <set>Qt::AlignRight|Qt::AlignTrailing|Qt::AlignVCenter</set>
+                  </property>
+                 </widget>
+                </item>
+               </layout>
+              </item>
+              <item>
+               <layout class="QVBoxLayout" name="verticalLayout_12">
+                <item>
+                 <widget class="QLineEdit" name="monthLE"/>
+                </item>
+                <item>
+                 <widget class="QLineEdit" name="dayLE"/>
+                </item>
+                <item>
+                 <widget class="QLineEdit" name="hourLE"/>
+                </item>
+                <item>
+                 <widget class="QLineEdit" name="minuteLE"/>
+                </item>
+               </layout>
+              </item>
+             </layout>
+            </item>
+           </layout>
+          </item>
+          <item>
+           <widget class="Line" name="line_4">
+            <property name="orientation">
+             <enum>Qt::Horizontal</enum>
+            </property>
+           </widget>
+          </item>
+         </layout>
+        </item>
+        <item row="1" column="1">
+         <spacer name="horizontalSpacer">
+          <property name="orientation">
+           <enum>Qt::Horizontal</enum>
+          </property>
+          <property name="sizeHint" stdset="0">
+           <size>
+            <width>40</width>
+            <height>20</height>
+           </size>
+          </property>
+         </spacer>
+        </item>
+        <item row="1" column="2" rowspan="2">
+         <layout class="QHBoxLayout" name="horizontalLayout_18">
+          <item>
+           <widget class="Line" name="line_3">
+            <property name="orientation">
+             <enum>Qt::Vertical</enum>
+            </property>
+           </widget>
+          </item>
+          <item>
+           <layout class="QVBoxLayout" name="verticalLayout_35">
+            <item>
+             <widget class="QLabel" name="label_4">
+              <property name="text">
+               <string>表一数据：</string>
+              </property>
+             </widget>
+            </item>
+            <item>
+             <layout class="QVBoxLayout" name="verticalLayout_34">
+              <item>
+               <layout class="QHBoxLayout" name="horizontalLayout_12">
+                <item>
+                 <layout class="QVBoxLayout" name="verticalLayout_18">
+                  <item>
+                   <widget class="QLabel" name="label_5">
+                    <property name="text">
+                     <string>1：</string>
+                    </property>
+                   </widget>
+                  </item>
+                  <item>
+                   <layout class="QHBoxLayout" name="horizontalLayout_6">
+                    <item>
+                     <layout class="QVBoxLayout" name="verticalLayout_14">
+                      <item>
+                       <widget class="QLabel" name="fL">
+                        <property name="text">
+                         <string>F：</string>
+                        </property>
+                       </widget>
+                      </item>
+                      <item>
+                       <widget class="QLabel" name="gL">
+                        <property name="text">
+                         <string>G：</string>
+                        </property>
+                       </widget>
+                      </item>
+                     </layout>
+                    </item>
+                    <item>
+                     <layout class="QVBoxLayout" name="verticalLayout_15">
+                      <item>
+                       <widget class="QLineEdit" name="fLE"/>
+                      </item>
+                      <item>
+                       <widget class="QLineEdit" name="gLE"/>
+                      </item>
+                     </layout>
+                    </item>
+                   </layout>
+                  </item>
+                 </layout>
+                </item>
+                <item>
+                 <layout class="QVBoxLayout" name="verticalLayout_21">
+                  <item>
+                   <widget class="QLabel" name="label_6">
+                    <property name="text">
+                     <string>2：</string>
+                    </property>
+                   </widget>
+                  </item>
+                  <item>
+                   <layout class="QHBoxLayout" name="horizontalLayout_7">
+                    <item>
+                     <layout class="QVBoxLayout" name="verticalLayout_19">
+                      <item>
+                       <widget class="QLabel" name="lL">
+                        <property name="text">
+                         <string>L：</string>
+                        </property>
+                       </widget>
+                      </item>
+                      <item>
+                       <widget class="QLabel" name="mL">
+                        <property name="text">
+                         <string>M：</string>
+                        </property>
+                       </widget>
+                      </item>
+                     </layout>
+                    </item>
+                    <item>
+                     <layout class="QVBoxLayout" name="verticalLayout_20">
+                      <item>
+                       <widget class="QLineEdit" name="lLE"/>
+                      </item>
+                      <item>
+                       <widget class="QLineEdit" name="mLE"/>
+                      </item>
+                     </layout>
+                    </item>
+                   </layout>
+                  </item>
+                 </layout>
+                </item>
+               </layout>
+              </item>
+              <item>
+               <widget class="Line" name="line_5">
+                <property name="orientation">
+                 <enum>Qt::Horizontal</enum>
+                </property>
+               </widget>
+              </item>
+              <item>
+               <layout class="QHBoxLayout" name="horizontalLayout_15">
+                <item>
+                 <layout class="QVBoxLayout" name="verticalLayout_24">
+                  <item>
+                   <widget class="QLabel" name="label_7">
+                    <property name="text">
+                     <string>3：</string>
+                    </property>
+                   </widget>
+                  </item>
+                  <item>
+                   <layout class="QHBoxLayout" name="horizontalLayout_8">
+                    <item>
+                     <layout class="QVBoxLayout" name="verticalLayout_22">
+                      <item>
+                       <widget class="QLabel" name="rL">
+                        <property name="text">
+                         <string>R：</string>
+                        </property>
+                       </widget>
+                      </item>
+                      <item>
+                       <widget class="QLabel" name="sL">
+                        <property name="text">
+                         <string>S：</string>
+                        </property>
+                       </widget>
+                      </item>
+                     </layout>
+                    </item>
+                    <item>
+                     <layout class="QVBoxLayout" name="verticalLayout_23">
+                      <item>
+                       <widget class="QLineEdit" name="rLE"/>
+                      </item>
+                      <item>
+                       <widget class="QLineEdit" name="sLE"/>
+                      </item>
+                     </layout>
+                    </item>
+                   </layout>
+                  </item>
+                 </layout>
+                </item>
+                <item>
+                 <layout class="QVBoxLayout" name="verticalLayout_27">
+                  <item>
+                   <widget class="QLabel" name="label_8">
+                    <property name="text">
+                     <string>4：</string>
+                    </property>
+                   </widget>
+                  </item>
+                  <item>
+                   <layout class="QHBoxLayout" name="horizontalLayout_9">
+                    <item>
+                     <layout class="QVBoxLayout" name="verticalLayout_25">
+                      <item>
+                       <widget class="QLabel" name="tL">
+                        <property name="text">
+                         <string>T：</string>
+                        </property>
+                       </widget>
+                      </item>
+                      <item>
+                       <widget class="QLabel" name="uL">
+                        <property name="text">
+                         <string>U：</string>
+                        </property>
+                       </widget>
+                      </item>
+                     </layout>
+                    </item>
+                    <item>
+                     <layout class="QVBoxLayout" name="verticalLayout_26">
+                      <item>
+                       <widget class="QLineEdit" name="tLE"/>
+                      </item>
+                      <item>
+                       <widget class="QLineEdit" name="uLE"/>
+                      </item>
+                     </layout>
+                    </item>
+                   </layout>
+                  </item>
+                 </layout>
+                </item>
+               </layout>
+              </item>
+              <item>
+               <widget class="Line" name="line_6">
+                <property name="orientation">
+                 <enum>Qt::Horizontal</enum>
+                </property>
+               </widget>
+              </item>
+              <item>
+               <layout class="QHBoxLayout" name="horizontalLayout_17">
+                <item>
+                 <layout class="QVBoxLayout" name="verticalLayout_30">
+                  <item>
+                   <widget class="QLabel" name="label_9">
+                    <property name="text">
+                     <string>5：</string>
+                    </property>
+                   </widget>
+                  </item>
+                  <item>
+                   <layout class="QHBoxLayout" name="horizontalLayout_10">
+                    <item>
+                     <layout class="QVBoxLayout" name="verticalLayout_28">
+                      <item>
+                       <widget class="QLabel" name="vL">
+                        <property name="text">
+                         <string>V：</string>
+                        </property>
+                       </widget>
+                      </item>
+                      <item>
+                       <widget class="QLabel" name="wL">
+                        <property name="text">
+                         <string>W：</string>
+                        </property>
+                       </widget>
+                      </item>
+                     </layout>
+                    </item>
+                    <item>
+                     <layout class="QVBoxLayout" name="verticalLayout_29">
+                      <item>
+                       <widget class="QLineEdit" name="vLE"/>
+                      </item>
+                      <item>
+                       <widget class="QLineEdit" name="wLE">
+                        <property name="text">
+                         <string/>
+                        </property>
+                       </widget>
+                      </item>
+                     </layout>
+                    </item>
+                   </layout>
+                  </item>
+                 </layout>
+                </item>
+                <item>
+                 <layout class="QVBoxLayout" name="verticalLayout_33">
+                  <item>
+                   <widget class="QLabel" name="label_10">
+                    <property name="text">
+                     <string>6：</string>
+                    </property>
+                   </widget>
+                  </item>
+                  <item>
+                   <layout class="QHBoxLayout" name="horizontalLayout_11">
+                    <item>
+                     <layout class="QVBoxLayout" name="verticalLayout_31">
+                      <item>
+                       <widget class="QLabel" name="xL">
+                        <property name="text">
+                         <string>X：</string>
+                        </property>
+                       </widget>
+                      </item>
+                      <item>
+                       <widget class="QLabel" name="yL">
+                        <property name="text">
+                         <string>Y：</string>
+                        </property>
+                       </widget>
+                      </item>
+                     </layout>
+                    </item>
+                    <item>
+                     <layout class="QVBoxLayout" name="verticalLayout_32">
+                      <item>
+                       <widget class="QLineEdit" name="xLE"/>
+                      </item>
+                      <item>
+                       <widget class="QLineEdit" name="yLE"/>
+                      </item>
+                     </layout>
+                    </item>
+                   </layout>
+                  </item>
+                 </layout>
+                </item>
+               </layout>
+              </item>
+             </layout>
+            </item>
+           </layout>
+          </item>
+         </layout>
+        </item>
+        <item row="2" column="0">
+         <layout class="QVBoxLayout" name="verticalLayout_17">
+          <item>
+           <widget class="QLabel" name="label">
+            <property name="text">
+             <string>表格二数据：</string>
+            </property>
+           </widget>
+          </item>
+          <item>
+           <layout class="QVBoxLayout" name="verticalLayout_16">
+            <item>
+             <layout class="QHBoxLayout" name="horizontalLayout_14">
+              <item>
+               <widget class="QLabel" name="aL">
+                <property name="text">
+                 <string>a：</string>
+                </property>
+               </widget>
+              </item>
+              <item>
+               <widget class="QLineEdit" name="aLE"/>
+              </item>
+             </layout>
+            </item>
+            <item>
+             <layout class="QHBoxLayout" name="horizontalLayout_13">
+              <item>
+               <widget class="QLabel" name="bL">
+                <property name="text">
+                 <string>b：</string>
+                </property>
+               </widget>
+              </item>
+              <item>
+               <widget class="QLineEdit" name="bLE"/>
+              </item>
+             </layout>
+            </item>
+           </layout>
+          </item>
+         </layout>
+        </item>
+        <item row="2" column="1">
+         <spacer name="horizontalSpacer_2">
+          <property name="orientation">
+           <enum>Qt::Horizontal</enum>
+          </property>
+          <property name="sizeHint" stdset="0">
+           <size>
+            <width>40</width>
+            <height>20</height>
+           </size>
+          </property>
+         </spacer>
+        </item>
+       </layout>
+      </item>
+      <item>
+       <widget class="Line" name="line_2">
+        <property name="orientation">
+         <enum>Qt::Horizontal</enum>
+        </property>
+       </widget>
+      </item>
+     </layout>
+    </item>
+    <item row="1" column="0">
+     <layout class="QHBoxLayout" name="horizontalLayout_19">
+      <item>
+       <layout class="QHBoxLayout" name="horizontalLayout_16">
+        <item>
+         <layout class="QVBoxLayout" name="verticalLayout_4">
+          <item>
+           <widget class="QPushButton" name="chooseTemplateFileBN">
+            <property name="text">
+             <string>选择模板文件</string>
+            </property>
+           </widget>
+          </item>
+          <item>
+           <widget class="QPushButton" name="chooseSaveDirBN">
+            <property name="text">
+             <string>选择文件生成目录</string>
+            </property>
+           </widget>
+          </item>
+         </layout>
+        </item>
+        <item>
+         <layout class="QVBoxLayout" name="verticalLayout_5">
+          <item>
+           <widget class="QLineEdit" name="chooseTemplateFileLE"/>
+          </item>
+          <item>
+           <widget class="QLineEdit" name="chooseSaveDirLE"/>
+          </item>
+         </layout>
+        </item>
+       </layout>
+      </item>
+      <item>
+       <spacer name="horizontalSpacer_3">
+        <property name="orientation">
+         <enum>Qt::Horizontal</enum>
+        </property>
+        <property name="sizeHint" stdset="0">
+         <size>
+          <width>40</width>
+          <height>20</height>
+         </size>
+        </property>
+       </spacer>
+      </item>
+      <item>
+       <layout class="QVBoxLayout" name="verticalLayout_38">
+        <item>
+         <widget class="QPushButton" name="startBN">
+          <property name="text">
+           <string>开始生成</string>
+          </property>
+         </widget>
+        </item>
+        <item>
+         <widget class="QPushButton" name="clearBN">
+          <property name="text">
+           <string>清除数据</string>
+          </property>
+         </widget>
+        </item>
+       </layout>
+      </item>
+      <item>
+       <spacer name="horizontalSpacer_4">
+        <property name="orientation">
+         <enum>Qt::Horizontal</enum>
+        </property>
+        <property name="sizeHint" stdset="0">
+         <size>
+          <width>40</width>
+          <height>20</height>
+         </size>
+        </property>
+       </spacer>
+      </item>
+     </layout>
+    </item>
+   </layout>
+  </widget>
+ </widget>
+ <resources/>
+ <connections/>
+</ui>
